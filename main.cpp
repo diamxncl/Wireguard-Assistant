@@ -11,9 +11,10 @@ int main () {
     system("clear");
     cout << endl << "\033[32m" << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - " << "\033[0m" << endl;
     cout << endl << "\033[32m" << "[+] Actualizaciones e instalación de docker realizada." << "\033[0m" << endl;
-    cout << endl << "\033[32m" << "[+] Preparando la instalación del docker..." << "\033[0m" << endl;
+    cout << endl << "\033[32m" << "[+] Preparando la instalación del docker..." << "\033[0m" << endl << endl;
     sleep(1);
 
+    system("clear");
     system("docker-compose up -d");
     cout << endl << "\033[32m" << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - " << "\033[0m" << endl;
     cout << "\033[32m" << "[+] Docker creado." << endl << endl << "[+] Mostrando configuración peer..." << "\033[0m" << endl << endl;
