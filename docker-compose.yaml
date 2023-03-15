@@ -12,7 +12,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
       - SERVERURL=wireguard.domain.com #optional
-      - SERVERPORT=3655 #optional
+      - SERVERPORT=51820 #optional
       - PEERS=1 #optional
       - PEERDNS=auto #optional
       - INTERNAL_SUBNET=10.13.13.0 #optional
@@ -23,7 +23,7 @@ services:
       - ./config:/config
       - /lib/modules:/lib/modules #optional
     ports:
-      - 3655:3655/udp
+      - 51820:51820/udp
     sysctls:
       - net.ipv4.conf.all.src_valid_mark=1
     restart: unless-stopped
