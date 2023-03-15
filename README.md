@@ -1,6 +1,6 @@
 # WireGuard-VPN-AWS
 
-This program will create a VPN using Wireguard, located in the port 3655 UDP, for 1 or more peers.
+This program will create a VPN using Wireguard, located in the port 51820 UDP, for 1 or more peers.
 
 ## How it works?
 This program will update your system, install docker.io and docker-compose.
