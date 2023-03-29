@@ -24,10 +24,5 @@ Go into the directory you just cloned:
 
 You will need to give program.out execute pemissions:
   ```bash
-  sudo chmod +x ./program.out
-  ```
-
-Then execute it with:
-  ```bash
-  sudo ./program.out
+  bash install.sh
   ```
