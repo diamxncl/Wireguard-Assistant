@@ -45,7 +45,8 @@ echo ""
 
 sleep 1.5
 
-sed -i 's/wireguard.domain.com/$(cat ip_publica.txt)/g' ./config/peer1/peer1.conf
+sudo chmod 777 program.out
+sudo ./program.out
 
 sleep 0.5
 
