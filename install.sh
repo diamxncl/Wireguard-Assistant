@@ -4,6 +4,7 @@ echo "cargando..."
 sudo apt-get update -y > /dev/null && sudo apt-get upgrade -y > /dev/null 
 sudo apt-get install figlet curl -y > /dev/null
 
+clear
 figlet wireguard
 echo ""
 echo "$(tput setaf 7)[$(tput setaf 1)+$(tput setaf 7)] Instalando docker."
