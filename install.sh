@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "cargando..."
-sudo apt-get update -y > /dev/null && sudo apt-get upgrade -y > /dev/null 
+sudo apt-get update -y > /dev/null 
 sudo apt-get install figlet curl -y > /dev/null
 
 clear
