@@ -1,4 +1,4 @@
-# WireGuard-VPN-AWS
+# WireGuard-Assistant
 
 This program will create a VPN using Wireguard, located in the port 51820 UDP, for 1 or more peers.
 
@@ -14,12 +14,12 @@ Then the docker will run automatically, and the program will show you the full c
 First you need to clone this repository.
 
   ```bash
-  git clone https://github.com/diamxncl/WireGuard-VPN-AWS
+  git clone https://github.com/diamxncl/Wireguard-Assistant
   ```
 Go into the directory you just cloned:
 
   ```bash
-  cd Wireguard-VPN-AWS
+  cd Wireguard-Assistant
   ```
 
 You will need to give program.out execute pemissions:
